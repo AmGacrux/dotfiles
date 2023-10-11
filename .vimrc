@@ -99,7 +99,7 @@ set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 " Expand tab-character to halfspace
 set expandtab
 set tabstop=4
-set shiftwidth=2
+set shiftwidth=4
 
 " Searching
 set ignorecase
@@ -111,3 +111,6 @@ nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
 " Using clipboard
 set clipboard=unnamedplus
+
+set fileformats=unix,dos
+set fileencodings=utf-8,sjis
